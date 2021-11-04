@@ -1,0 +1,30 @@
+# Default values for bender-catalog.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+application:
+  # This is bad practice! In the real world, these secrets should be hidden somehow,
+  # likely through a secret manager like Vault.
+  auth:
+    username: aang
+    password: all4elements
+  ingress:
+    host: PENNKEY.cis188.org
+    path: "/"
+    secretName: "PENNKEY-cis188-org-tls"
+
+cronjob:
+  image: ghcr.io/cis188/infrastructure/unit3-cronjob
+  tag: v2
+  schedule: "*/1 * * * *"
+
+redis:
+  image: redis
+  tag: "6.0"
+  port: 6379
+
+web:
+  image: ghcr.io/cis188/infrastructure/unit3-web
+  tag: v2
+  port: 8000
+  replicas: 1
