@@ -1,6 +1,6 @@
 apiVersion: v2
 name: bender-catalog
-description: A helm chart to deploy our bender catalog
+description: A helm chart to deploy bender catalogs
 
 # A chart can be either an 'application' or a 'library' chart.
 #
