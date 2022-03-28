@@ -17,5 +17,5 @@ spec:
                 - name: REDIS_URL
                   value: "redis://{{ .Release.Name }}-redis:{{ .Values.redis.port }}/0"
           imagePullSecrets:
-            - name: docker-registry-registrycreds
+            - name: docker-pull-secret
           restartPolicy: Never

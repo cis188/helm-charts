@@ -35,7 +35,7 @@ spec:
                   name: {{ .Release.Name }}-web-secret
                   key: password
       imagePullSecrets:
-        - name: docker-registry-registrycreds
+        - name: docker-pull-secret
       volumes:
         - name: template-map
           configMap:
