@@ -14,7 +14,7 @@ application:
     secretName: "PENNKEY-cis188-org-tls"
 
 cronjob:
-  image: ghcr.io/cis188/infrastructure/unit3-cronjob
+  image: ghcr.io/cis1880/infrastructure/unit3-cronjob
   tag: v2
   schedule: "*/1 * * * *"
 
@@ -24,7 +24,7 @@ redis:
   port: 6379
 
 web:
-  image: ghcr.io/cis188/infrastructure/unit3-web
+  image: ghcr.io/cis1880/infrastructure/unit3-web
   tag: v2
   port: 8000
   replicas: 1
