@@ -1,4 +1,4 @@
-apiVersion: batch/vi
+apiVersion: batch/v1
 kind: CronJob
 metadata:
   name: {{ .Release.Name }}-aggregator
