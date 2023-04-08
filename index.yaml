@@ -3,6 +3,16 @@ entries:
   bender-catalog:
   - apiVersion: v2
     appVersion: 2.0.0
+    created: "2023-04-08T02:58:18.170662393Z"
+    description: A helm chart to deploy bender catalogs
+    digest: e7545ec509c62c78530ee02b9dd7bacd9230d86df763e5388603a9511881bbee
+    name: bender-catalog
+    type: application
+    urls:
+    - https://github.com/cis1880/helm-charts/releases/download/bender-catalog-0.2.3/bender-catalog-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: 2.0.0
     created: "2023-04-08T02:55:08.906094869Z"
     description: A helm chart to deploy bender catalogs
     digest: 181a577502d69364e38936e813f64ee4358edc5e5a845cfaaf784b0e63aec35e
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://github.com/cis188/helm-charts/releases/download/bender-catalog-0.1.0/bender-catalog-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-08T02:55:08.906108869Z"
+generated: "2023-04-08T02:58:18.170684093Z"
