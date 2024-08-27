@@ -28,4 +28,4 @@ jobs:
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         with:
-          charts_repo_url: https://helm.cis188.org
+          charts_repo_url: https://helm.cis1912.org
